@@ -1,0 +1,50 @@
+<CATALOG>
+	<GOT>
+		<PICTURE>img/Arya.png</PICTURE>
+		<NAME>Arya Stark</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Cersei.png</PICTURE>
+		<NAME>Cersei Lannister</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Daenerys.png</PICTURE>
+		<NAME>Daenerys Targaryen</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Eddard.png</PICTURE>
+		<NAME>Eddard Stark</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Jaime.png</PICTURE>
+		<NAME>Jaime Lannister</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Joffrey.png</PICTURE>
+		<NAME>Joffrey Baratheon</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Jon_snow.png</PICTURE>
+		<NAME>Jon Snow</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Margaery.png</PICTURE>
+		<NAME>Margaery Tyrell</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Melisandre.png</PICTURE>
+		<NAME>Melisandre</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Night_king.png</PICTURE>
+		<NAME>Night King</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Sansa.png</PICTURE>
+		<NAME>Sansa Stark</NAME>
+	</GOT>
+	<GOT>
+		<PICTURE>img/Tyrion.png</PICTURE>
+		<NAME>Tyrion Lannister</NAME>
+	</GOT>
+</CATALOG>
