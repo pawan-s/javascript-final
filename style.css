@@ -1,0 +1,114 @@
+div#gameBoard{
+	background:#444;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:10px;
+	margin:0px auto;
+}
+div#gameBoard > div{
+	background: url(img/GOT.png) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	color: transparent;
+	text-indent: 100%;
+	cursor:pointer;
+	overflow: hidden;
+
+}
+body {
+    background: url(img/BG_GOT.jpg) repeat-y;
+    background-size: 100%;
+    font-family: 'Headland One', serif;
+} 
+h1 {
+	color: white;
+	text-align: center;
+}
+.reset a {
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a6827e;
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d5d3b), color-stop(1, #634b30));
+	background:-moz-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:-webkit-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.reset{
+	text-align: center;
+}
+.reset a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #634b30), color-stop(1, #7d5d3b));
+	background:-webkit-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.flip3D {
+	transform: perspective( 600px ) rotateY( 0deg );
+	width:111px; height:111px; border-radius: 3px;
+	backface-visibility: hidden;
+	transition: all 0.2s;
+}
+.flip3D:active {
+	transform: perspective( 600px ) rotateY( -180deg );
+}
+.scoreTime{
+	margin: auto;
+	max-width: 800px;
+	margin-top: 0;
+	color: white;
+	font-size: 20px;
+}
+.scoreTime > #score{
+	float:left;
+	/*display: relative;*/
+	margin-top: 0;
+
+}
+.scoreTime > #tried{
+	margin: 0;
+	float: left;
+}
+
+.scoreTime > #timer{
+	float: right;
+/*	display: relative;*/
+	margin-top: 0;
+}
+/*clear fix*/
+.group::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/*Table*/
+.GOTtable{
+	margin: auto;
+	color: white;
+	border-collapse: collapse;
+}
+.GOTtable tr td{
+	border: 1px solid #999;
+	background-color: rgba(0,0,0,0.75);
+}
+.GOTtable th {
+    background-color: #7d5d3b;
+    border: 1px solid #999;
+    color: white;
+    line-height: 30px;
+}
